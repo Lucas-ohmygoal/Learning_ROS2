@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from learning_interface/action/MoveCircle.action
+// generated code does not contain a copyright notice
+
+
+module learning_interface {
+  module action {
+    struct MoveCircle_Goal {
+      boolean enable;
+    };
+    struct MoveCircle_Result {
+      boolean finish;
+    };
+    struct MoveCircle_Feedback {
+      int32 state;
+    };
+  };
+};

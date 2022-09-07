@@ -1,0 +1,4 @@
+[console_scripts]
+topic_helloworld_pub = learning_topic.topic_helloworld_pub:main
+topic_helloworld_sub = learning_topic.topic_helloworld_sub:main
+

@@ -1,0 +1,491 @@
+[0.039s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.039s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='sequential', install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb1d79e20>>, merge_install=False, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb1d79e20>, verb_name='build', verb_parser=CustomArgumentParser(prog='colcon build', usage=None, description='Build a set of packages.', formatter_class=<class 'colcon_core.command.CustomFormatter'>, conflict_handler='error', add_help=True))
+[0.060s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.060s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.060s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.060s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lucas/catkin_ws'
+[0.060s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.060s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.060s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.060s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.060s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.067s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.067s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.067s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.067s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.068s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.068s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.068s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.068s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.068s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.068s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.068s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.068s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.068s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.068s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.068s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.068s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.068s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.068s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.068s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_action) by extensions ['ignore', 'ignore_ament_install']
+[0.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_action) by extension 'ignore'
+[0.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_action) by extension 'ignore_ament_install'
+[0.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_action) by extensions ['ros']
+[0.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_action) by extension 'ros'
+[0.071s] DEBUG:colcon.colcon_core.package_identification:Package 'src/learning_action' with type 'ros.ament_python' and name 'learning_action'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_interface) by extension 'ignore'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_interface) by extension 'ignore_ament_install'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_interface) by extensions ['ros']
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_interface) by extension 'ros'
+[0.073s] DEBUG:colcon.colcon_core.package_identification:Package 'src/learning_interface' with type 'ros.ament_cmake' and name 'learning_interface'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_launch) by extension 'ignore'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_launch) by extension 'ignore_ament_install'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_launch) by extensions ['ros']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_launch) by extension 'ros'
+[0.073s] DEBUG:colcon.colcon_core.package_identification:Package 'src/learning_launch' with type 'ros.ament_python' and name 'learning_launch'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_node_python) by extensions ['ignore', 'ignore_ament_install']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_node_python) by extension 'ignore'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_node_python) by extension 'ignore_ament_install'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_node_python) by extensions ['ros']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_node_python) by extension 'ros'
+[0.074s] DEBUG:colcon.colcon_core.package_identification:Package 'src/learning_node_python' with type 'ros.ament_python' and name 'learning_node_python'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_parameter) by extensions ['ignore', 'ignore_ament_install']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_parameter) by extension 'ignore'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_parameter) by extension 'ignore_ament_install'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_parameter) by extensions ['ros']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_parameter) by extension 'ros'
+[0.074s] DEBUG:colcon.colcon_core.package_identification:Package 'src/learning_parameter' with type 'ros.ament_python' and name 'learning_parameter'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_pkg_c) by extensions ['ignore', 'ignore_ament_install']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_pkg_c) by extension 'ignore'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_pkg_c) by extension 'ignore_ament_install'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_pkg_c) by extensions ['ros']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_pkg_c) by extension 'ros'
+[0.075s] DEBUG:colcon.colcon_core.package_identification:Package 'src/learning_pkg_c' with type 'ros.ament_cmake' and name 'learning_pkg_c'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_pkg_python) by extensions ['ignore', 'ignore_ament_install']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_pkg_python) by extension 'ignore'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_pkg_python) by extension 'ignore_ament_install'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_pkg_python) by extensions ['ros']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_pkg_python) by extension 'ros'
+[0.075s] DEBUG:colcon.colcon_core.package_identification:Package 'src/learning_pkg_python' with type 'ros.ament_python' and name 'learning_pkg_python'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_qos) by extensions ['ignore', 'ignore_ament_install']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_qos) by extension 'ignore'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_qos) by extension 'ignore_ament_install'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_qos) by extensions ['ros']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_qos) by extension 'ros'
+[0.076s] DEBUG:colcon.colcon_core.package_identification:Package 'src/learning_qos' with type 'ros.ament_python' and name 'learning_qos'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_service) by extensions ['ignore', 'ignore_ament_install']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_service) by extension 'ignore'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_service) by extension 'ignore_ament_install'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_service) by extensions ['ros']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_service) by extension 'ros'
+[0.076s] DEBUG:colcon.colcon_core.package_identification:Package 'src/learning_service' with type 'ros.ament_python' and name 'learning_service'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_topic) by extensions ['ignore', 'ignore_ament_install']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_topic) by extension 'ignore'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_topic) by extension 'ignore_ament_install'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_topic) by extensions ['ros']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_topic) by extension 'ros'
+[0.077s] DEBUG:colcon.colcon_core.package_identification:Package 'src/learning_topic' with type 'ros.ament_python' and name 'learning_topic'
+[0.077s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.077s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.077s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'learning_action' build argument 'cmake_args' from command line to 'None'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'learning_action' build argument 'cmake_target' from command line to 'None'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'learning_action' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'learning_action' build argument 'cmake_clean_cache' from command line to 'False'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'learning_action' build argument 'cmake_clean_first' from command line to 'False'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'learning_action' build argument 'cmake_force_configure' from command line to 'False'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'learning_action' build argument 'ament_cmake_args' from command line to 'None'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'learning_action' build argument 'catkin_cmake_args' from command line to 'None'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'learning_action' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.091s] DEBUG:colcon.colcon_core.verb:Building package 'learning_action' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucas/catkin_ws/build/learning_action', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucas/catkin_ws/install/learning_action', 'merge_install': False, 'path': '/home/lucas/catkin_ws/src/learning_action', 'symlink_install': False, 'test_result_base': None}
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'cmake_args' from command line to 'None'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'cmake_target' from command line to 'None'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.092s] DEBUG:colcon.colcon_core.verb:Building package 'learning_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucas/catkin_ws/build/learning_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucas/catkin_ws/install/learning_interface', 'merge_install': False, 'path': '/home/lucas/catkin_ws/src/learning_interface', 'symlink_install': False, 'test_result_base': None}
+[0.092s] Level 5:colcon.colcon_core.verb:set package 'learning_launch' build argument 'cmake_args' from command line to 'None'
+[0.092s] Level 5:colcon.colcon_core.verb:set package 'learning_launch' build argument 'cmake_target' from command line to 'None'
+[0.092s] Level 5:colcon.colcon_core.verb:set package 'learning_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.092s] Level 5:colcon.colcon_core.verb:set package 'learning_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.092s] Level 5:colcon.colcon_core.verb:set package 'learning_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.092s] Level 5:colcon.colcon_core.verb:set package 'learning_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.092s] Level 5:colcon.colcon_core.verb:set package 'learning_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.092s] Level 5:colcon.colcon_core.verb:set package 'learning_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.092s] Level 5:colcon.colcon_core.verb:set package 'learning_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.092s] DEBUG:colcon.colcon_core.verb:Building package 'learning_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucas/catkin_ws/build/learning_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucas/catkin_ws/install/learning_launch', 'merge_install': False, 'path': '/home/lucas/catkin_ws/src/learning_launch', 'symlink_install': False, 'test_result_base': None}
+[0.092s] Level 5:colcon.colcon_core.verb:set package 'learning_node_python' build argument 'cmake_args' from command line to 'None'
+[0.093s] Level 5:colcon.colcon_core.verb:set package 'learning_node_python' build argument 'cmake_target' from command line to 'None'
+[0.093s] Level 5:colcon.colcon_core.verb:set package 'learning_node_python' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.093s] Level 5:colcon.colcon_core.verb:set package 'learning_node_python' build argument 'cmake_clean_cache' from command line to 'False'
+[0.093s] Level 5:colcon.colcon_core.verb:set package 'learning_node_python' build argument 'cmake_clean_first' from command line to 'False'
+[0.093s] Level 5:colcon.colcon_core.verb:set package 'learning_node_python' build argument 'cmake_force_configure' from command line to 'False'
+[0.093s] Level 5:colcon.colcon_core.verb:set package 'learning_node_python' build argument 'ament_cmake_args' from command line to 'None'
+[0.093s] Level 5:colcon.colcon_core.verb:set package 'learning_node_python' build argument 'catkin_cmake_args' from command line to 'None'
+[0.093s] Level 5:colcon.colcon_core.verb:set package 'learning_node_python' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.093s] DEBUG:colcon.colcon_core.verb:Building package 'learning_node_python' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucas/catkin_ws/build/learning_node_python', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucas/catkin_ws/install/learning_node_python', 'merge_install': False, 'path': '/home/lucas/catkin_ws/src/learning_node_python', 'symlink_install': False, 'test_result_base': None}
+[0.093s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter' build argument 'cmake_args' from command line to 'None'
+[0.093s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter' build argument 'cmake_target' from command line to 'None'
+[0.093s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.093s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.093s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter' build argument 'cmake_clean_first' from command line to 'False'
+[0.093s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter' build argument 'cmake_force_configure' from command line to 'False'
+[0.093s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter' build argument 'ament_cmake_args' from command line to 'None'
+[0.093s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.093s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.093s] DEBUG:colcon.colcon_core.verb:Building package 'learning_parameter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucas/catkin_ws/build/learning_parameter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucas/catkin_ws/install/learning_parameter', 'merge_install': False, 'path': '/home/lucas/catkin_ws/src/learning_parameter', 'symlink_install': False, 'test_result_base': None}
+[0.094s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'cmake_args' from command line to 'None'
+[0.094s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'cmake_target' from command line to 'None'
+[0.094s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.094s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'cmake_clean_cache' from command line to 'False'
+[0.094s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'cmake_clean_first' from command line to 'False'
+[0.094s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'cmake_force_configure' from command line to 'False'
+[0.094s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'ament_cmake_args' from command line to 'None'
+[0.094s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'catkin_cmake_args' from command line to 'None'
+[0.094s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.094s] DEBUG:colcon.colcon_core.verb:Building package 'learning_pkg_c' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucas/catkin_ws/build/learning_pkg_c', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucas/catkin_ws/install/learning_pkg_c', 'merge_install': False, 'path': '/home/lucas/catkin_ws/src/learning_pkg_c', 'symlink_install': False, 'test_result_base': None}
+[0.094s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'cmake_args' from command line to 'None'
+[0.094s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'cmake_target' from command line to 'None'
+[0.094s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.094s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'cmake_clean_cache' from command line to 'False'
+[0.094s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'cmake_clean_first' from command line to 'False'
+[0.094s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'cmake_force_configure' from command line to 'False'
+[0.094s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'ament_cmake_args' from command line to 'None'
+[0.094s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'catkin_cmake_args' from command line to 'None'
+[0.094s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.094s] DEBUG:colcon.colcon_core.verb:Building package 'learning_pkg_python' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucas/catkin_ws/build/learning_pkg_python', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucas/catkin_ws/install/learning_pkg_python', 'merge_install': False, 'path': '/home/lucas/catkin_ws/src/learning_pkg_python', 'symlink_install': False, 'test_result_base': None}
+[0.095s] Level 5:colcon.colcon_core.verb:set package 'learning_qos' build argument 'cmake_args' from command line to 'None'
+[0.095s] Level 5:colcon.colcon_core.verb:set package 'learning_qos' build argument 'cmake_target' from command line to 'None'
+[0.095s] Level 5:colcon.colcon_core.verb:set package 'learning_qos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.095s] Level 5:colcon.colcon_core.verb:set package 'learning_qos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.095s] Level 5:colcon.colcon_core.verb:set package 'learning_qos' build argument 'cmake_clean_first' from command line to 'False'
+[0.095s] Level 5:colcon.colcon_core.verb:set package 'learning_qos' build argument 'cmake_force_configure' from command line to 'False'
+[0.095s] Level 5:colcon.colcon_core.verb:set package 'learning_qos' build argument 'ament_cmake_args' from command line to 'None'
+[0.095s] Level 5:colcon.colcon_core.verb:set package 'learning_qos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.095s] Level 5:colcon.colcon_core.verb:set package 'learning_qos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.095s] DEBUG:colcon.colcon_core.verb:Building package 'learning_qos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucas/catkin_ws/build/learning_qos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucas/catkin_ws/install/learning_qos', 'merge_install': False, 'path': '/home/lucas/catkin_ws/src/learning_qos', 'symlink_install': False, 'test_result_base': None}
+[0.095s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'cmake_args' from command line to 'None'
+[0.095s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'cmake_target' from command line to 'None'
+[0.095s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.095s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'cmake_clean_cache' from command line to 'False'
+[0.095s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'cmake_clean_first' from command line to 'False'
+[0.095s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'cmake_force_configure' from command line to 'False'
+[0.095s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'ament_cmake_args' from command line to 'None'
+[0.095s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'catkin_cmake_args' from command line to 'None'
+[0.095s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.095s] DEBUG:colcon.colcon_core.verb:Building package 'learning_topic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucas/catkin_ws/build/learning_topic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucas/catkin_ws/install/learning_topic', 'merge_install': False, 'path': '/home/lucas/catkin_ws/src/learning_topic', 'symlink_install': False, 'test_result_base': None}
+[0.096s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'cmake_args' from command line to 'None'
+[0.096s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'cmake_target' from command line to 'None'
+[0.096s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.096s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'cmake_clean_cache' from command line to 'False'
+[0.096s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'cmake_clean_first' from command line to 'False'
+[0.096s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'cmake_force_configure' from command line to 'False'
+[0.096s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'ament_cmake_args' from command line to 'None'
+[0.096s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'catkin_cmake_args' from command line to 'None'
+[0.096s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.096s] DEBUG:colcon.colcon_core.verb:Building package 'learning_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucas/catkin_ws/build/learning_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucas/catkin_ws/install/learning_service', 'merge_install': False, 'path': '/home/lucas/catkin_ws/src/learning_service', 'symlink_install': False, 'test_result_base': None}
+[0.096s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[0.097s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_action'
+[0.097s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lucas/catkin_ws/src/learning_action' with build type 'ament_python'
+[0.097s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_action', 'ament_prefix_path')
+[0.099s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.099s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/catkin_ws/install/learning_action/share/learning_action/hook/ament_prefix_path.dsv'
+[0.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/catkin_ws/install/learning_action/share/learning_action/hook/ament_prefix_path.sh'
+[0.101s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.276s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lucas/catkin_ws/src/learning_action'
+[0.277s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.511s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/catkin_ws/src/learning_action': PYTHONPATH=/home/lucas/catkin_ws/install/learning_action/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_action build --build-base /home/lucas/catkin_ws/build/learning_action/build install --prefix /home/lucas/catkin_ws/install/learning_action --record /home/lucas/catkin_ws/build/learning_action/install.log --single-version-externally-managed
+[0.661s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/catkin_ws/src/learning_action' returned '0': PYTHONPATH=/home/lucas/catkin_ws/install/learning_action/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_action build --build-base /home/lucas/catkin_ws/build/learning_action/build install --prefix /home/lucas/catkin_ws/install/learning_action --record /home/lucas/catkin_ws/build/learning_action/install.log --single-version-externally-managed
+[0.663s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_action' for CMake module files
+[0.664s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_action' for CMake config files
+[0.664s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_action/lib'
+[0.664s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_action/bin'
+[0.664s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_action/lib/pkgconfig/learning_action.pc'
+[0.664s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_action/lib/python3.8/site-packages'
+[0.664s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_action', 'pythonpath')
+[0.665s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/catkin_ws/install/learning_action/share/learning_action/hook/pythonpath.dsv'
+[0.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/catkin_ws/install/learning_action/share/learning_action/hook/pythonpath.sh'
+[0.666s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_action/bin'
+[0.666s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_action)
+[0.666s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/catkin_ws/install/learning_action/share/learning_action/package.dsv'
+[0.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/catkin_ws/install/learning_action/share/learning_action/package.sh'
+[0.667s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/catkin_ws/install/learning_action/share/colcon-core/packages/learning_action)
+[0.667s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_action' finished with '0'
+[0.667s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_interface'
+[0.667s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lucas/catkin_ws/src/learning_interface' with build type 'ament_cmake'
+[0.667s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lucas/catkin_ws/src/learning_interface'
+[0.667s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/catkin_ws/build/learning_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucas/catkin_ws/install/learning_launch:/home/lucas/catkin_ws/install/learning_topic:/home/lucas/catkin_ws/install/learning_service:/home/lucas/catkin_ws/install/learning_qos:/home/lucas/catkin_ws/install/learning_pkg_python:/home/lucas/catkin_ws/install/learning_parameter:/home/lucas/catkin_ws/install/learning_node_python:/home/lucas/catkin_ws/install/learning_action:/opt/ros/foxy /usr/bin/cmake --build /home/lucas/catkin_ws/build/learning_interface -- -j2 -l2
+[1.096s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/catkin_ws/build/learning_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucas/catkin_ws/install/learning_launch:/home/lucas/catkin_ws/install/learning_topic:/home/lucas/catkin_ws/install/learning_service:/home/lucas/catkin_ws/install/learning_qos:/home/lucas/catkin_ws/install/learning_pkg_python:/home/lucas/catkin_ws/install/learning_parameter:/home/lucas/catkin_ws/install/learning_node_python:/home/lucas/catkin_ws/install/learning_action:/opt/ros/foxy /usr/bin/cmake --build /home/lucas/catkin_ws/build/learning_interface -- -j2 -l2
+[1.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/catkin_ws/build/learning_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucas/catkin_ws/install/learning_launch:/home/lucas/catkin_ws/install/learning_topic:/home/lucas/catkin_ws/install/learning_service:/home/lucas/catkin_ws/install/learning_qos:/home/lucas/catkin_ws/install/learning_pkg_python:/home/lucas/catkin_ws/install/learning_parameter:/home/lucas/catkin_ws/install/learning_node_python:/home/lucas/catkin_ws/install/learning_action:/opt/ros/foxy /usr/bin/cmake --install /home/lucas/catkin_ws/build/learning_interface
+[1.223s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_interface)
+[1.224s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_interface' for CMake module files
+[1.225s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_interface' for CMake config files
+[1.225s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_interface', 'cmake_prefix_path')
+[1.226s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/catkin_ws/install/learning_interface/share/learning_interface/hook/cmake_prefix_path.dsv'
+[1.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/catkin_ws/install/learning_interface/share/learning_interface/hook/cmake_prefix_path.sh'
+[1.227s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_interface/lib'
+[1.227s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_interface', 'ld_library_path_lib')
+[1.227s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/catkin_ws/install/learning_interface/share/learning_interface/hook/ld_library_path_lib.dsv'
+[1.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/catkin_ws/build/learning_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucas/catkin_ws/install/learning_launch:/home/lucas/catkin_ws/install/learning_topic:/home/lucas/catkin_ws/install/learning_service:/home/lucas/catkin_ws/install/learning_qos:/home/lucas/catkin_ws/install/learning_pkg_python:/home/lucas/catkin_ws/install/learning_parameter:/home/lucas/catkin_ws/install/learning_node_python:/home/lucas/catkin_ws/install/learning_action:/opt/ros/foxy /usr/bin/cmake --install /home/lucas/catkin_ws/build/learning_interface
+[1.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/catkin_ws/install/learning_interface/share/learning_interface/hook/ld_library_path_lib.sh'
+[1.228s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_interface/bin'
+[1.228s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_interface/lib/pkgconfig/learning_interface.pc'
+[1.228s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_interface/lib/python3.8/site-packages'
+[1.228s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_interface', 'pythonpath')
+[1.228s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/catkin_ws/install/learning_interface/share/learning_interface/hook/pythonpath.dsv'
+[1.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/catkin_ws/install/learning_interface/share/learning_interface/hook/pythonpath.sh'
+[1.229s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_interface/bin'
+[1.229s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/catkin_ws/install/learning_interface/share/learning_interface/package.dsv'
+[1.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/catkin_ws/install/learning_interface/share/learning_interface/package.sh'
+[1.230s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/catkin_ws/install/learning_interface/share/colcon-core/packages/learning_interface)
+[1.289s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_interface)
+[1.290s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_interface' for CMake module files
+[1.290s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_interface' for CMake config files
+[1.291s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_interface', 'cmake_prefix_path')
+[1.291s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/catkin_ws/install/learning_interface/share/learning_interface/hook/cmake_prefix_path.dsv'
+[1.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/catkin_ws/install/learning_interface/share/learning_interface/hook/cmake_prefix_path.sh'
+[1.292s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_interface/lib'
+[1.292s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_interface', 'ld_library_path_lib')
+[1.292s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/catkin_ws/install/learning_interface/share/learning_interface/hook/ld_library_path_lib.dsv'
+[1.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/catkin_ws/install/learning_interface/share/learning_interface/hook/ld_library_path_lib.sh'
+[1.292s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_interface/bin'
+[1.292s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_interface/lib/pkgconfig/learning_interface.pc'
+[1.293s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_interface/lib/python3.8/site-packages'
+[1.293s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_interface', 'pythonpath')
+[1.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/catkin_ws/install/learning_interface/share/learning_interface/hook/pythonpath.dsv'
+[1.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/catkin_ws/install/learning_interface/share/learning_interface/hook/pythonpath.sh'
+[1.293s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_interface/bin'
+[1.294s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/catkin_ws/install/learning_interface/share/learning_interface/package.dsv'
+[1.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/catkin_ws/install/learning_interface/share/learning_interface/package.sh'
+[1.294s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/catkin_ws/install/learning_interface/share/colcon-core/packages/learning_interface)
+[1.294s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_interface' finished with '0'
+[1.294s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_launch'
+[1.295s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lucas/catkin_ws/src/learning_launch' with build type 'ament_python'
+[1.295s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_launch', 'ament_prefix_path')
+[1.295s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/catkin_ws/install/learning_launch/share/learning_launch/hook/ament_prefix_path.dsv'
+[1.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/catkin_ws/install/learning_launch/share/learning_launch/hook/ament_prefix_path.sh'
+[1.296s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.414s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lucas/catkin_ws/src/learning_launch'
+[1.415s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/catkin_ws/src/learning_launch': PYTHONPATH=/home/lucas/catkin_ws/install/learning_launch/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_launch build --build-base /home/lucas/catkin_ws/build/learning_launch/build install --prefix /home/lucas/catkin_ws/install/learning_launch --record /home/lucas/catkin_ws/build/learning_launch/install.log --single-version-externally-managed
+[1.799s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_launch' for CMake module files
+[1.799s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/catkin_ws/src/learning_launch' returned '0': PYTHONPATH=/home/lucas/catkin_ws/install/learning_launch/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_launch build --build-base /home/lucas/catkin_ws/build/learning_launch/build install --prefix /home/lucas/catkin_ws/install/learning_launch --record /home/lucas/catkin_ws/build/learning_launch/install.log --single-version-externally-managed
+[1.799s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_launch' for CMake config files
+[1.800s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_launch/lib'
+[1.800s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_launch/bin'
+[1.800s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_launch/lib/pkgconfig/learning_launch.pc'
+[1.800s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_launch/lib/python3.8/site-packages'
+[1.800s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_launch', 'pythonpath')
+[1.800s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/catkin_ws/install/learning_launch/share/learning_launch/hook/pythonpath.dsv'
+[1.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/catkin_ws/install/learning_launch/share/learning_launch/hook/pythonpath.sh'
+[1.801s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_launch/bin'
+[1.801s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_launch)
+[1.802s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/catkin_ws/install/learning_launch/share/learning_launch/package.dsv'
+[1.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/catkin_ws/install/learning_launch/share/learning_launch/package.sh'
+[1.802s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/catkin_ws/install/learning_launch/share/colcon-core/packages/learning_launch)
+[1.802s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_launch' finished with '0'
+[1.802s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_node_python'
+[1.802s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lucas/catkin_ws/src/learning_node_python' with build type 'ament_python'
+[1.802s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_node_python', 'ament_prefix_path')
+[1.803s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/catkin_ws/install/learning_node_python/share/learning_node_python/hook/ament_prefix_path.dsv'
+[1.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/catkin_ws/install/learning_node_python/share/learning_node_python/hook/ament_prefix_path.sh'
+[1.803s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.913s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lucas/catkin_ws/src/learning_node_python'
+[1.914s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/catkin_ws/src/learning_node_python': PYTHONPATH=/home/lucas/catkin_ws/install/learning_node_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_node_python build --build-base /home/lucas/catkin_ws/build/learning_node_python/build install --prefix /home/lucas/catkin_ws/install/learning_node_python --record /home/lucas/catkin_ws/build/learning_node_python/install.log --single-version-externally-managed
+[2.250s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_node_python' for CMake module files
+[2.250s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/catkin_ws/src/learning_node_python' returned '0': PYTHONPATH=/home/lucas/catkin_ws/install/learning_node_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_node_python build --build-base /home/lucas/catkin_ws/build/learning_node_python/build install --prefix /home/lucas/catkin_ws/install/learning_node_python --record /home/lucas/catkin_ws/build/learning_node_python/install.log --single-version-externally-managed
+[2.251s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_node_python' for CMake config files
+[2.251s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_node_python/lib'
+[2.251s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_node_python/bin'
+[2.251s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_node_python/lib/pkgconfig/learning_node_python.pc'
+[2.251s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_node_python/lib/python3.8/site-packages'
+[2.251s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_node_python', 'pythonpath')
+[2.252s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/catkin_ws/install/learning_node_python/share/learning_node_python/hook/pythonpath.dsv'
+[2.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/catkin_ws/install/learning_node_python/share/learning_node_python/hook/pythonpath.sh'
+[2.252s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_node_python/bin'
+[2.252s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_node_python)
+[2.253s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/catkin_ws/install/learning_node_python/share/learning_node_python/package.dsv'
+[2.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/catkin_ws/install/learning_node_python/share/learning_node_python/package.sh'
+[2.253s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/catkin_ws/install/learning_node_python/share/colcon-core/packages/learning_node_python)
+[2.253s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_node_python' finished with '0'
+[2.253s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_parameter'
+[2.254s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lucas/catkin_ws/src/learning_parameter' with build type 'ament_python'
+[2.254s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_parameter', 'ament_prefix_path')
+[2.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/catkin_ws/install/learning_parameter/share/learning_parameter/hook/ament_prefix_path.dsv'
+[2.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/catkin_ws/install/learning_parameter/share/learning_parameter/hook/ament_prefix_path.sh'
+[2.255s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.369s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lucas/catkin_ws/src/learning_parameter'
+[2.370s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/catkin_ws/src/learning_parameter': PYTHONPATH=/home/lucas/catkin_ws/install/learning_parameter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_parameter build --build-base /home/lucas/catkin_ws/build/learning_parameter/build install --prefix /home/lucas/catkin_ws/install/learning_parameter --record /home/lucas/catkin_ws/build/learning_parameter/install.log --single-version-externally-managed
+[2.717s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_parameter' for CMake module files
+[2.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/catkin_ws/src/learning_parameter' returned '0': PYTHONPATH=/home/lucas/catkin_ws/install/learning_parameter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_parameter build --build-base /home/lucas/catkin_ws/build/learning_parameter/build install --prefix /home/lucas/catkin_ws/install/learning_parameter --record /home/lucas/catkin_ws/build/learning_parameter/install.log --single-version-externally-managed
+[2.717s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_parameter' for CMake config files
+[2.718s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_parameter/lib'
+[2.718s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_parameter/bin'
+[2.718s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_parameter/lib/pkgconfig/learning_parameter.pc'
+[2.718s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_parameter/lib/python3.8/site-packages'
+[2.718s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_parameter', 'pythonpath')
+[2.718s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/catkin_ws/install/learning_parameter/share/learning_parameter/hook/pythonpath.dsv'
+[2.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/catkin_ws/install/learning_parameter/share/learning_parameter/hook/pythonpath.sh'
+[2.719s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_parameter/bin'
+[2.719s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_parameter)
+[2.720s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/catkin_ws/install/learning_parameter/share/learning_parameter/package.dsv'
+[2.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/catkin_ws/install/learning_parameter/share/learning_parameter/package.sh'
+[2.720s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/catkin_ws/install/learning_parameter/share/colcon-core/packages/learning_parameter)
+[2.720s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_parameter' finished with '0'
+[2.720s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_pkg_c'
+[2.720s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lucas/catkin_ws/src/learning_pkg_c' with build type 'ament_cmake'
+[2.720s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lucas/catkin_ws/src/learning_pkg_c'
+[2.721s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/catkin_ws/build/learning_pkg_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucas/catkin_ws/install/learning_launch:/home/lucas/catkin_ws/install/learning_topic:/home/lucas/catkin_ws/install/learning_service:/home/lucas/catkin_ws/install/learning_qos:/home/lucas/catkin_ws/install/learning_pkg_python:/home/lucas/catkin_ws/install/learning_parameter:/home/lucas/catkin_ws/install/learning_node_python:/home/lucas/catkin_ws/install/learning_action:/opt/ros/foxy /usr/bin/cmake --build /home/lucas/catkin_ws/build/learning_pkg_c -- -j2 -l2
+[2.766s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/catkin_ws/build/learning_pkg_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucas/catkin_ws/install/learning_launch:/home/lucas/catkin_ws/install/learning_topic:/home/lucas/catkin_ws/install/learning_service:/home/lucas/catkin_ws/install/learning_qos:/home/lucas/catkin_ws/install/learning_pkg_python:/home/lucas/catkin_ws/install/learning_parameter:/home/lucas/catkin_ws/install/learning_node_python:/home/lucas/catkin_ws/install/learning_action:/opt/ros/foxy /usr/bin/cmake --build /home/lucas/catkin_ws/build/learning_pkg_c -- -j2 -l2
+[2.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/catkin_ws/build/learning_pkg_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucas/catkin_ws/install/learning_launch:/home/lucas/catkin_ws/install/learning_topic:/home/lucas/catkin_ws/install/learning_service:/home/lucas/catkin_ws/install/learning_qos:/home/lucas/catkin_ws/install/learning_pkg_python:/home/lucas/catkin_ws/install/learning_parameter:/home/lucas/catkin_ws/install/learning_node_python:/home/lucas/catkin_ws/install/learning_action:/opt/ros/foxy /usr/bin/cmake --install /home/lucas/catkin_ws/build/learning_pkg_c
+[2.791s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_pkg_c)
+[2.792s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_pkg_c' for CMake module files
+[2.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/catkin_ws/build/learning_pkg_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucas/catkin_ws/install/learning_launch:/home/lucas/catkin_ws/install/learning_topic:/home/lucas/catkin_ws/install/learning_service:/home/lucas/catkin_ws/install/learning_qos:/home/lucas/catkin_ws/install/learning_pkg_python:/home/lucas/catkin_ws/install/learning_parameter:/home/lucas/catkin_ws/install/learning_node_python:/home/lucas/catkin_ws/install/learning_action:/opt/ros/foxy /usr/bin/cmake --install /home/lucas/catkin_ws/build/learning_pkg_c
+[2.793s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_pkg_c' for CMake config files
+[2.793s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_pkg_c', 'cmake_prefix_path')
+[2.793s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/catkin_ws/install/learning_pkg_c/share/learning_pkg_c/hook/cmake_prefix_path.dsv'
+[2.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/catkin_ws/install/learning_pkg_c/share/learning_pkg_c/hook/cmake_prefix_path.sh'
+[2.794s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_pkg_c/bin'
+[2.794s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_pkg_c/lib/pkgconfig/learning_pkg_c.pc'
+[2.794s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_pkg_c/lib/python3.8/site-packages'
+[2.794s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_pkg_c/bin'
+[2.794s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/catkin_ws/install/learning_pkg_c/share/learning_pkg_c/package.dsv'
+[2.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/catkin_ws/install/learning_pkg_c/share/learning_pkg_c/package.sh'
+[2.795s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/catkin_ws/install/learning_pkg_c/share/colcon-core/packages/learning_pkg_c)
+[2.814s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_pkg_c)
+[2.815s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_pkg_c' for CMake module files
+[2.815s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_pkg_c' for CMake config files
+[2.815s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_pkg_c', 'cmake_prefix_path')
+[2.815s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/catkin_ws/install/learning_pkg_c/share/learning_pkg_c/hook/cmake_prefix_path.dsv'
+[2.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/catkin_ws/install/learning_pkg_c/share/learning_pkg_c/hook/cmake_prefix_path.sh'
+[2.816s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_pkg_c/bin'
+[2.816s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_pkg_c/lib/pkgconfig/learning_pkg_c.pc'
+[2.816s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_pkg_c/lib/python3.8/site-packages'
+[2.816s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_pkg_c/bin'
+[2.817s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/catkin_ws/install/learning_pkg_c/share/learning_pkg_c/package.dsv'
+[2.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/catkin_ws/install/learning_pkg_c/share/learning_pkg_c/package.sh'
+[2.817s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/catkin_ws/install/learning_pkg_c/share/colcon-core/packages/learning_pkg_c)
+[2.817s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_pkg_c' finished with '0'
+[2.817s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_pkg_python'
+[2.817s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lucas/catkin_ws/src/learning_pkg_python' with build type 'ament_python'
+[2.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_pkg_python', 'ament_prefix_path')
+[2.818s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/catkin_ws/install/learning_pkg_python/share/learning_pkg_python/hook/ament_prefix_path.dsv'
+[2.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/catkin_ws/install/learning_pkg_python/share/learning_pkg_python/hook/ament_prefix_path.sh'
+[2.819s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.943s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lucas/catkin_ws/src/learning_pkg_python'
+[2.945s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/catkin_ws/src/learning_pkg_python': PYTHONPATH=/home/lucas/catkin_ws/install/learning_pkg_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_pkg_python build --build-base /home/lucas/catkin_ws/build/learning_pkg_python/build install --prefix /home/lucas/catkin_ws/install/learning_pkg_python --record /home/lucas/catkin_ws/build/learning_pkg_python/install.log --single-version-externally-managed
+[3.397s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_pkg_python' for CMake module files
+[3.397s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_pkg_python' for CMake config files
+[3.398s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_pkg_python/lib'
+[3.398s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_pkg_python/bin'
+[3.398s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_pkg_python/lib/pkgconfig/learning_pkg_python.pc'
+[3.398s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_pkg_python/lib/python3.8/site-packages'
+[3.398s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_pkg_python', 'pythonpath')
+[3.398s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/catkin_ws/install/learning_pkg_python/share/learning_pkg_python/hook/pythonpath.dsv'
+[3.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/catkin_ws/install/learning_pkg_python/share/learning_pkg_python/hook/pythonpath.sh'
+[3.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/catkin_ws/src/learning_pkg_python' returned '0': PYTHONPATH=/home/lucas/catkin_ws/install/learning_pkg_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_pkg_python build --build-base /home/lucas/catkin_ws/build/learning_pkg_python/build install --prefix /home/lucas/catkin_ws/install/learning_pkg_python --record /home/lucas/catkin_ws/build/learning_pkg_python/install.log --single-version-externally-managed
+[3.399s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_pkg_python/bin'
+[3.399s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_pkg_python)
+[3.400s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/catkin_ws/install/learning_pkg_python/share/learning_pkg_python/package.dsv'
+[3.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/catkin_ws/install/learning_pkg_python/share/learning_pkg_python/package.sh'
+[3.400s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/catkin_ws/install/learning_pkg_python/share/colcon-core/packages/learning_pkg_python)
+[3.400s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_pkg_python' finished with '0'
+[3.400s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_qos'
+[3.400s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lucas/catkin_ws/src/learning_qos' with build type 'ament_python'
+[3.400s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_qos', 'ament_prefix_path')
+[3.401s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/catkin_ws/install/learning_qos/share/learning_qos/hook/ament_prefix_path.dsv'
+[3.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/catkin_ws/install/learning_qos/share/learning_qos/hook/ament_prefix_path.sh'
+[3.402s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.534s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lucas/catkin_ws/src/learning_qos'
+[3.535s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/catkin_ws/src/learning_qos': PYTHONPATH=/home/lucas/catkin_ws/install/learning_qos/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_qos build --build-base /home/lucas/catkin_ws/build/learning_qos/build install --prefix /home/lucas/catkin_ws/install/learning_qos --record /home/lucas/catkin_ws/build/learning_qos/install.log --single-version-externally-managed
+[4.046s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_qos' for CMake module files
+[4.046s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_qos' for CMake config files
+[4.047s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_qos/lib'
+[4.047s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_qos/bin'
+[4.047s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_qos/lib/pkgconfig/learning_qos.pc'
+[4.047s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_qos/lib/python3.8/site-packages'
+[4.047s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_qos', 'pythonpath')
+[4.049s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/catkin_ws/install/learning_qos/share/learning_qos/hook/pythonpath.dsv'
+[4.050s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/catkin_ws/src/learning_qos' returned '0': PYTHONPATH=/home/lucas/catkin_ws/install/learning_qos/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_qos build --build-base /home/lucas/catkin_ws/build/learning_qos/build install --prefix /home/lucas/catkin_ws/install/learning_qos --record /home/lucas/catkin_ws/build/learning_qos/install.log --single-version-externally-managed
+[4.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/catkin_ws/install/learning_qos/share/learning_qos/hook/pythonpath.sh'
+[4.051s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_qos/bin'
+[4.051s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_qos)
+[4.052s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/catkin_ws/install/learning_qos/share/learning_qos/package.dsv'
+[4.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/catkin_ws/install/learning_qos/share/learning_qos/package.sh'
+[4.052s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/catkin_ws/install/learning_qos/share/colcon-core/packages/learning_qos)
+[4.053s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_qos' finished with '0'
+[4.053s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_topic'
+[4.053s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lucas/catkin_ws/src/learning_topic' with build type 'ament_python'
+[4.053s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_topic', 'ament_prefix_path')
+[4.053s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/catkin_ws/install/learning_topic/share/learning_topic/hook/ament_prefix_path.dsv'
+[4.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/catkin_ws/install/learning_topic/share/learning_topic/hook/ament_prefix_path.sh'
+[4.054s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.196s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lucas/catkin_ws/src/learning_topic'
+[4.197s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/catkin_ws/src/learning_topic': PYTHONPATH=/home/lucas/catkin_ws/install/learning_topic/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_topic build --build-base /home/lucas/catkin_ws/build/learning_topic/build install --prefix /home/lucas/catkin_ws/install/learning_topic --record /home/lucas/catkin_ws/build/learning_topic/install.log --single-version-externally-managed
+[4.643s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_topic' for CMake module files
+[4.643s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_topic' for CMake config files
+[4.644s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_topic/lib'
+[4.644s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_topic/bin'
+[4.644s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_topic/lib/pkgconfig/learning_topic.pc'
+[4.644s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_topic/lib/python3.8/site-packages'
+[4.644s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_topic', 'pythonpath')
+[4.644s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/catkin_ws/install/learning_topic/share/learning_topic/hook/pythonpath.dsv'
+[4.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/catkin_ws/install/learning_topic/share/learning_topic/hook/pythonpath.sh'
+[4.651s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/catkin_ws/src/learning_topic' returned '0': PYTHONPATH=/home/lucas/catkin_ws/install/learning_topic/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_topic build --build-base /home/lucas/catkin_ws/build/learning_topic/build install --prefix /home/lucas/catkin_ws/install/learning_topic --record /home/lucas/catkin_ws/build/learning_topic/install.log --single-version-externally-managed
+[4.652s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_topic/bin'
+[4.652s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_topic)
+[4.653s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/catkin_ws/install/learning_topic/share/learning_topic/package.dsv'
+[4.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/catkin_ws/install/learning_topic/share/learning_topic/package.sh'
+[4.656s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/catkin_ws/install/learning_topic/share/colcon-core/packages/learning_topic)
+[4.656s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_topic' finished with '0'
+[4.656s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_service'
+[4.656s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lucas/catkin_ws/src/learning_service' with build type 'ament_python'
+[4.657s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_service', 'ament_prefix_path')
+[4.657s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/catkin_ws/install/learning_service/share/learning_service/hook/ament_prefix_path.dsv'
+[4.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/catkin_ws/install/learning_service/share/learning_service/hook/ament_prefix_path.sh'
+[4.658s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.784s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lucas/catkin_ws/src/learning_service'
+[4.785s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.123s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/catkin_ws/src/learning_service': CMAKE_PREFIX_PATH=/home/lucas/catkin_ws/install/learning_interface:/home/lucas/catkin_ws/install/learning_pkg_c PYTHONPATH=/home/lucas/catkin_ws/install/learning_service/lib/python3.8/site-packages:/home/lucas/catkin_ws/install/learning_interface/lib/python3.8/site-packages:/home/lucas/catkin_ws/install/learning_launch/lib/python3.8/site-packages:/home/lucas/catkin_ws/install/learning_topic/lib/python3.8/site-packages:/home/lucas/catkin_ws/install/learning_service/lib/python3.8/site-packages:/home/lucas/catkin_ws/install/learning_qos/lib/python3.8/site-packages:/home/lucas/catkin_ws/install/learning_pkg_python/lib/python3.8/site-packages:/home/lucas/catkin_ws/install/learning_parameter/lib/python3.8/site-packages:/home/lucas/catkin_ws/install/learning_node_python/lib/python3.8/site-packages:/home/lucas/catkin_ws/install/learning_action/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_service build --build-base /home/lucas/catkin_ws/build/learning_service/build install --prefix /home/lucas/catkin_ws/install/learning_service --record /home/lucas/catkin_ws/build/learning_service/install.log --single-version-externally-managed
+[5.301s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_service' for CMake module files
+[5.302s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_service' for CMake config files
+[5.302s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_service/lib'
+[5.302s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_service/bin'
+[5.302s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_service/lib/pkgconfig/learning_service.pc'
+[5.302s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_service/lib/python3.8/site-packages'
+[5.302s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_service', 'pythonpath')
+[5.303s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/catkin_ws/install/learning_service/share/learning_service/hook/pythonpath.dsv'
+[5.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/catkin_ws/install/learning_service/share/learning_service/hook/pythonpath.sh'
+[5.303s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/catkin_ws/src/learning_service' returned '0': CMAKE_PREFIX_PATH=/home/lucas/catkin_ws/install/learning_interface:/home/lucas/catkin_ws/install/learning_pkg_c PYTHONPATH=/home/lucas/catkin_ws/install/learning_service/lib/python3.8/site-packages:/home/lucas/catkin_ws/install/learning_interface/lib/python3.8/site-packages:/home/lucas/catkin_ws/install/learning_launch/lib/python3.8/site-packages:/home/lucas/catkin_ws/install/learning_topic/lib/python3.8/site-packages:/home/lucas/catkin_ws/install/learning_service/lib/python3.8/site-packages:/home/lucas/catkin_ws/install/learning_qos/lib/python3.8/site-packages:/home/lucas/catkin_ws/install/learning_pkg_python/lib/python3.8/site-packages:/home/lucas/catkin_ws/install/learning_parameter/lib/python3.8/site-packages:/home/lucas/catkin_ws/install/learning_node_python/lib/python3.8/site-packages:/home/lucas/catkin_ws/install/learning_action/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_service build --build-base /home/lucas/catkin_ws/build/learning_service/build install --prefix /home/lucas/catkin_ws/install/learning_service --record /home/lucas/catkin_ws/build/learning_service/install.log --single-version-externally-managed
+[5.303s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/catkin_ws/install/learning_service/bin'
+[5.303s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_service)
+[5.304s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/catkin_ws/install/learning_service/share/learning_service/package.dsv'
+[5.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/catkin_ws/install/learning_service/share/learning_service/package.sh'
+[5.306s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/catkin_ws/install/learning_service/share/colcon-core/packages/learning_service)
+[5.307s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_service' finished with '0'
+[5.307s] DEBUG:colcon.colcon_core.executor.sequential:closing loop
+[5.307s] DEBUG:colcon.colcon_core.executor.sequential:loop closed
+[5.307s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.307s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.311s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lucas/catkin_ws/install/local_setup.sh'
+[5.311s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lucas/catkin_ws/install/_local_setup_util_sh.py'
+[5.312s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lucas/catkin_ws/install/setup.sh'

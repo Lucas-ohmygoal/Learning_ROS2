@@ -1,0 +1,4 @@
+[console_scripts]
+static_tf_broadcaster = learning_tf.static_tf_broadcaster:main
+tf_listener = learning_tf.tf_listener:main
+

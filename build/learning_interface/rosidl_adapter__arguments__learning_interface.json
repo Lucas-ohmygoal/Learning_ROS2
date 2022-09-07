@@ -1,0 +1,7 @@
+{
+  "package_name": "learning_interface",
+  "non_idl_tuples": [
+    "/home/lucas/catkin_ws/src/learning_interface:srv/AddTwoInts.srv",
+    "/home/lucas/catkin_ws/src/learning_interface:action/MoveCircle.action"
+  ]
+}
